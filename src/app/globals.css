@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0f2b5c;
+  --color-navy-dark: #091a38;
+  --color-navy-light: #163875;
+  --color-red: #c9182b;
+  --color-red-hover: #a51322;
+}
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Telugu', 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
